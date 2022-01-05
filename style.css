@@ -1,0 +1,215 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family: 'Merriweather','serif';
+
+}
+#front-page{
+  background-color: black;
+  text-align:center;
+}
+
+
+
+h1{
+ margin:20px;
+ font-size: 70px;
+ color: white;
+}
+#discover{
+  color:#FF0000;
+}
+#uae_text{
+  color:#00732f;
+}
+
+#uae_img{
+  width:600px;
+  /* border:10px solid #eecc5d; */
+  border-radius:50%;
+  margin:0 30px;
+  box-shadow:5px 5px 20px 20px #d4af37;
+  transition: transform 2s ease-in-out;
+}
+#uae_img:hover{
+  transform:scale(1.1) rotate(-360deg);
+}
+
+.tinyImg{
+  width:300px;
+}
+.category{
+  border:2px solid black;
+  border-radius:10px;
+  padding:10px;
+  margin:10px;
+  background-color: white;
+  position:relative;
+  box-sizing: border-box;
+  box-shadow:10px 5px 10px lightcyan;
+}
+.category:hover{
+  border-color:#E7305B;
+  transform: scale(1.1);
+  transition: transform 2s ease-in-out, border-color 2s ease-in-out;
+}
+.widget-container{
+  /* width:800px; */
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap:wrap;
+  margin:0 auto;
+  position: relative;
+  top:100px;
+}
+.widget-container a{
+  text-decoration: none;
+  color:white;
+}
+#widget-page{
+  background: url('https://images.unsplash.com/photo-1474533883693-59a44dbb964e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80') no-repeat center fixed;
+  background-size: cover;
+}
+.category h3{
+  background-color:rgba(24,23,24,0.8);
+  position: absolute;
+  top:100px;
+  left:100px;
+  padding:10px;
+}
+
+#daily-life{
+  background-image: linear-gradient(to right,#FFF591,#A3F7BF, #05DFD7);
+  padding:20px;
+
+}
+nav{
+  position:fixed;
+  width:100%;
+  z-index:1;
+  top:0%;
+  left:0%;
+}
+
+nav ul {
+    background-color: #6ECB63;
+    border-style: solid;
+    border-color: MediumVioletRed;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+    nav ul li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #EDF6E5;
+      font-size:20px;
+  }
+  nav ul li a:hover {
+    
+      color: #D54062;
+    
+  }
+    nav ul li a:active {
+    
+      color:black;
+    
+  }
+
+  iframe{
+    width:400px;
+    display:block;
+    margin:30px auto;
+    border:2px black ridge ;
+    box-shadow: 5px 5px 5px gray;
+    border-radius:2px;
+  }
+
+#dailylife-h1{
+  color:black;
+  text-decoration: overline underline;
+  text-align: center;
+  letter-spacing: 4px;
+  margin:50px 0;
+}
+article{
+  border: 5px double #184D47;
+  border-radius:10px;
+  padding:30px;
+
+}
+
+#daily-life section{
+  border: 2px double #36B5B0;
+  padding:20px;
+  margin:20px;
+  box-sizing:border-box;
+}
+#daily-life p{
+  font-size:18px;
+  font-weight:500;
+  margin-bottom:20px;
+  margin-top:10px;
+  word-spacing: 2px;
+}
+  .mediumImg{
+    display:block;
+    width:400px;
+    margin:0 auto;
+  }
+  figcaption{
+    text-align: center;
+  }
+
+  #attractions{
+    background-color:#F7F5DD;
+  }
+
+  .places-container{
+    display:flex;
+  }
+ .panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 80vh;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  top:100px;
+  flex: 1;
+}
+
+.panel h3 {
+  font-size: 24px;
+  position: absolute; 
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+ 
+.panel:hover {
+  flex: 5;
+  transition: flex 1s ease-in-out 0.4s;
+
+}
+
+.panel:hover h3{
+  opacity: 1;
+  transition: opacity 1s ease-in-out 0.4s;
+}
